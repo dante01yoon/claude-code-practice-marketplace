@@ -6,7 +6,8 @@
 ## 설치
 
 ```
-/plugin install starter-setting --marketplace dante01yoon/claude-code-practice-marketplace
+/plugin marketplace add dante01yoon/claude-code-practice-marketplace
+/plugin install starter-setting@claude-code-practice-marketplace
 ```
 
 설치한 뒤 프로젝트 폴더에서 `/starter-setting:setup`을 한 번 실행합니다.

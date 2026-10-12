@@ -7,7 +7,7 @@ timeout_seconds: 900
 allowed_tools: [Read, Glob, Grep, Skill, Agent, TodoWrite, Write, Edit]
 ---
 
-우리 동네 도서관 공지 페이지인데 다크 모드 좀 넣어 줘. 아래 코드를 index.html로 저장해서 작업해 줘.
+도서관 공지 예시 페이지인데 다크 모드 좀 넣어 줘. 아래 코드를 index.html로 저장해서 작업해 줘.
 휴대폰 시스템 설정이 다크면 처음부터 어둡게 나오고, 버튼으로도 바꿀 수 있으면 좋겠어. 바꾼 건 새로고침해도 유지돼야 해.
 
 ```html
@@ -16,7 +16,7 @@ allowed_tools: [Read, Glob, Grep, Skill, Agent, TodoWrite, Write, Edit]
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>한빛 작은도서관 공지</title>
+  <title>도서관 공지 (예시)</title>
   <style>
     body { margin: 0; font-family: sans-serif; background: #ffffff; color: #222222; }
     header { background: #f4f1ea; border-bottom: 1px solid #dddddd; padding: 16px; }
@@ -28,7 +28,7 @@ allowed_tools: [Read, Glob, Grep, Skill, Agent, TodoWrite, Write, Edit]
   </style>
 </head>
 <body>
-  <header><h1>한빛 작은도서관 공지</h1></header>
+  <header><h1>도서관 공지 (예시)</h1></header>
   <main>
     <div class="card">
       <p class="date">2026-10-05</p>
