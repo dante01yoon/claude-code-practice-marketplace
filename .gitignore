@@ -1,1 +1,4 @@
 .DS_Store
+
+# plugin eval 결과
+plugins/*/evals/results/
