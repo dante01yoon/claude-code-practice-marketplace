@@ -20,6 +20,7 @@ agents/
   screen-checker.md           # Playwright로 데스크톱·375px 화면 확인 (sonnet)
 skills/
   web-page/                   # /starter-setting:web-page — 요구사항 목록으로 index.html 만들고 화면 확인
+  dark-mode/                  # /starter-setting:dark-mode — 기존 페이지에 다크 모드(시스템 설정 + 토글 저장) 넣기
   seoul-data/                 # /starter-setting:seoul-data — 서울 열린데이터광장 API 데이터 받기
   setup/                      # /starter-setting:setup — CLAUDE.md, .gitignore, 상태줄·권한을 프로젝트에 넣기
 hooks/
@@ -42,7 +43,7 @@ templates/                    # setup 스킬이 프로젝트에 넣는 파일
 
 ## 원래 세팅과 다른 점
 
-- 스킬은 플러그인 이름이 붙습니다: `/starter-setting:web-page`, `/starter-setting:seoul-data`.
+- 스킬은 플러그인 이름이 붙습니다: `/starter-setting:web-page`, `/starter-setting:dark-mode`, `/starter-setting:seoul-data`.
 - `CLAUDE.md`, `.gitignore`, 상태줄, `Edit(/data/**)` 금지 권한은 플러그인이 직접 켤 수 없어 `/starter-setting:setup`이 프로젝트에 넣습니다.
 - 개수 표시는 프로젝트 `.claude/` 폴더의 스킬·에이전트·훅만 셉니다. 플러그인이 주는 것은 세지 않습니다.
 

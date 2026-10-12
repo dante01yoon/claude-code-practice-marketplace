@@ -7,7 +7,7 @@
 | 이름 | 설명 |
 | --- | --- |
 | [web-kit](plugins/web-kit) | 요구사항 체크리스트로 `index.html` 웹 페이지를 만들고(`web-page` 스킬), Playwright로 데스크톱·모바일 화면을 확인(`screen-checker` 에이전트) |
-| [starter-setting](plugins/starter-setting) | 새 프로젝트용 스타터 세팅: `web-page`·`seoul-data`·`setup` 스킬, `reviewer`·`screen-checker` 에이전트, 위험 명령 차단·모델 변경 확인·Prettier 훅, context7·playwright MCP, 프롬프트 위 개수 표시 |
+| [starter-setting](plugins/starter-setting) | 새 프로젝트용 스타터 세팅: `web-page`·`dark-mode`·`seoul-data`·`setup` 스킬, `reviewer`·`screen-checker` 에이전트, 위험 명령 차단·모델 변경 확인·Prettier 훅, context7·playwright MCP, 프롬프트 위 개수 표시 |
 
 ## 설치
 
